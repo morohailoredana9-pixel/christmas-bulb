@@ -1,0 +1,13 @@
+{
+  "name": "Christmas Bulb",
+  "short_name": "Christmas Bulb",
+  "description": "A festive Christmas countdown, calendar and daily message.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#10243f",
+  "theme_color": "#244b70",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

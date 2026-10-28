@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#244b70">
+  <meta name="description" content="An illustrated Christmas bulb surrounded by animated cats, with a live countdown, calendar and daily message.">
+  <title>Christmas Bulb</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topline">
+      <span class="tiny-star" aria-hidden="true">✦</span>
+      <p>A LITTLE MAGIC EVERY DAY</p>
+      <span class="tiny-star" aria-hidden="true">✦</span>
+    </header>
+
+    <section class="hero" aria-labelledby="app-title">
+      <h1 id="app-title">Christmas <em>Bulb</em></h1>
+      <p class="intro">A tiny ornament. A whole lot of Christmas.</p>
+
+      <div class="cat-stage" aria-label="A crowd of animated black Christmas cats playing around the ornament">
+        <span class="cat-caption">THE CHRISTMAS CAT CLUB</span>
+        <div class="tree tree-left" aria-hidden="true"><span class="tree-star">✦</span><i></i><b></b><em></em><small>●</small></div>
+        <div class="tree tree-right" aria-hidden="true"><span class="tree-star">✦</span><i></i><b></b><em></em><small>●</small></div>
+        <div class="tree tree-back" aria-hidden="true"><span class="tree-star">✦</span><i></i><b></b><em></em></div>
+        <div class="cat cat-one" aria-hidden="true"><svg viewBox="0 0 100 100"><path class="tail" d="M28 76C4 84 9 55 22 57"/><path class="body" d="M23 76Q18 56 31 53L29 30 43 40Q53 35 62 41L75 29 76 51Q86 62 76 78Z"/><ellipse cx="42" cy="56" rx="5" ry="7" class="eye"/><ellipse cx="64" cy="56" rx="5" ry="7" class="eye"/><circle cx="42" cy="57" r="2.5" class="pupil"/><circle cx="64" cy="57" r="2.5" class="pupil"/><path class="nose" d="M50 66l5 0-2.5 4z"/><path class="whisker" d="M45 68L27 65M45 71L29 74M60 68l17-4M60 71l16 4"/></svg></div>
+        <div class="cat cat-two" aria-hidden="true"><svg viewBox="0 0 100 100"><path class="tail" d="M70 80C96 81 90 54 78 60"/><path class="body" d="M20 79Q12 59 27 49L24 25 41 39Q51 34 60 40L76 24 75 51Q88 62 77 80Z"/><ellipse cx="41" cy="56" rx="5" ry="7" class="eye"/><ellipse cx="62" cy="56" rx="5" ry="7" class="eye"/><circle cx="41" cy="57" r="2.5" class="pupil"/><circle cx="62" cy="57" r="2.5" class="pupil"/><path class="nose" d="M49 66h5l-2.5 4z"/><path class="whisker" d="M43 68L25 65M43 71L27 74M59 68l17-4M59 71l16 4"/></svg></div>
+        <div class="cat cat-three" aria-hidden="true"><svg viewBox="0 0 100 100"><path class="tail" d="M25 79C4 80 8 58 21 58"/><path class="body" d="M21 78Q15 58 29 50L27 28 42 39Q52 34 62 41L75 27 76 51Q87 62 77 79Z"/><ellipse cx="42" cy="56" rx="5" ry="7" class="eye"/><ellipse cx="63" cy="56" rx="5" ry="7" class="eye"/><circle cx="42" cy="57" r="2.5" class="pupil"/><circle cx="63" cy="57" r="2.5" class="pupil"/><path class="nose" d="M50 66h5l-2.5 4z"/><path class="whisker" d="M44 68L26 65M44 71L28 74M60 68l17-4M60 71l16 4"/></svg></div>
+        <div class="cat cat-four" aria-hidden="true"><svg viewBox="0 0 100 100"><path class="tail" d="M73 79C96 82 93 54 80 57"/><path class="body" d="M20 79Q13 60 28 50L25 26 42 40Q53 35 62 41L76 27 77 52Q88 62 78 79Z"/><ellipse cx="42" cy="56" rx="5" ry="7" class="eye"/><ellipse cx="64" cy="56" rx="5" ry="7" class="eye"/><circle cx="42" cy="57" r="2.5" class="pupil"/><circle cx="64" cy="57" r="2.5" class="pupil"/><path class="nose" d="M51 66h5l-2.5 4z"/><path class="whisker" d="M44 68L26 65M44 71L28 74M61 68l17-4M61 71l16 4"/></svg></div>
+        <div class="cat cat-five" aria-hidden="true"><svg viewBox="0 0 100 100"><path class="tail" d="M25 79C1 86 8 55 21 59"/><path class="body" d="M20 79Q13 60 28 50L25 26 42 40Q53 35 62 41L76 27 77 52Q88 62 78 79Z"/><ellipse cx="42" cy="56" rx="5" ry="7" class="eye"/><ellipse cx="64" cy="56" rx="5" ry="7" class="eye"/><circle cx="42" cy="57" r="2.5" class="pupil"/><circle cx="64" cy="57" r="2.5" class="pupil"/><path class="nose" d="M51 66h5l-2.5 4z"/><path class="whisker" d="M44 68L26 65M44 71L28 74M61 68l17-4M61 71l16 4"/></svg></div>
+        <span class="cat-star star-a">✦</span><span class="cat-star star-b">✧</span><span class="cat-star star-c">✦</span>
+      </div>
+
+      <div class="ornament-wrap" aria-label="Round Christmas snow globe with tiny animated cats inside">
+        <div class="snowglobe">
+          <div class="globe-cap"><span></span><span></span><span></span></div>
+          <div class="globe-glass">
+            <div class="globe-snow snow-one">✦</div><div class="globe-snow snow-two">·</div><div class="globe-snow snow-three">✧</div><div class="globe-snow snow-four">·</div>
+            <div class="globe-tree"><span>✦</span><i></i><b></b><em></em><small></small></div>
+            <div class="globe-cat globe-cat-one"><span class="ears">▲ ▲</span><span class="eyes">● ●</span><span class="cat-belly"></span><span class="tail"></span></div>
+            <div class="globe-cat globe-cat-two"><span class="ears">▲ ▲</span><span class="eyes">● ●</span><span class="cat-belly"></span><span class="tail"></span></div>
+            <div class="globe-cat globe-cat-three"><span class="ears">▲ ▲</span><span class="eyes">● ●</span><span class="cat-belly"></span><span class="tail"></span></div>
+            <div class="globe-ground"></div>
+            <div class="globe-shine"></div>
+          </div>
+          <div class="globe-base"><span>MEOWY CHRISTMAS</span></div>
+        </div>
+      </div>
+      <div class="feeding-area" aria-label="Feed the Christmas cats">
+        <p class="feeding-title">A little treat for the kitties</p>
+        <button type="button" class="food-bowl" id="food-bowl" aria-label="Give the cats some food">
+          <span class="food-pile" aria-hidden="true">● ● ●<br> ● ● ●</span>
+          <span class="bowl-paw" aria-hidden="true">🐾</span>
+        </button>
+        <p class="feeding-hint" id="feeding-hint" aria-live="polite">Tap the bowl to feed them!</p>
+        <div class="food-particles" id="food-particles" aria-hidden="true"></div>
+      </div>
+
+      <div class="countdown-card">
+        <p class="eyebrow" id="countdown-label">COUNTING DOWN TO CHRISTMAS</p>
+        <div class="countdown-number" id="days-left" aria-live="polite">--</div>
+        <p class="days-caption" id="days-caption">days until Christmas</p>
+        <div class="time-row" aria-label="Countdown time">
+          <div><strong id="hours-left">--</strong><span>hours</span></div>
+          <i>:</i>
+          <div><strong id="minutes-left">--</strong><span>minutes</span></div>
+          <i>:</i>
+          <div><strong id="seconds-left">--</strong><span>seconds</span></div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="Widget sections">
+      <button class="tab active" type="button" data-panel="today" aria-selected="true">Today</button>
+      <button class="tab" type="button" data-panel="calendar" aria-selected="false">December calendar</button>
+      <button class="tab" type="button" data-panel="message" aria-selected="false">Daily magic</button>
+    </nav>
+
+    <section class="content-panel" id="today-panel">
+      <div class="panel-heading"><span class="sparkle">✦</span><h2>Today, wrapped in wonder</h2></div>
+      <p class="today-date" id="today-date">Loading today's date…</p>
+      <p class="today-note" id="today-note">A little moment of magic is waiting for you.</p>
+    </section>
+
+    <section class="content-panel hidden" id="calendar-panel">
+      <div class="calendar-head">
+        <button type="button" id="prev-month" class="month-arrow" aria-label="Previous month">‹</button>
+        <h2 id="month-title">December</h2>
+        <button type="button" id="next-month" class="month-arrow" aria-label="Next month">›</button>
+      </div>
+      <div class="calendar-grid weekday-row" aria-hidden="true">
+        <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+      </div>
+      <div class="calendar-grid" id="calendar-days" aria-label="Calendar dates"></div>
+      <p class="calendar-legend"><span class="legend-dot today-dot"></span> Today <span class="legend-dot christmas-dot"></span> Christmas Day</p>
+      <p id="selected-date-note" class="selected-date-note" aria-live="polite">Choose a day to see its note.</p>
+    </section>
+
+    <section class="content-panel hidden" id="message-panel">
+      <div class="panel-heading"><span class="sparkle">✦</span><h2>A little daily magic</h2></div>
+      <p class="message-quote" id="daily-message"></p>
+      <button type="button" id="new-message" class="small-button">Another little message ↻</button>
+    </section>
+
+    <footer><span>MADE WITH CHRISTMAS MAGIC</span><span aria-hidden="true">❄ ✦ ❄</span></footer>
+  </main>
+  <!-- One special little cat follows the pointer around the screen -->
+  <div class="cursor-cat" id="cursor-cat" aria-hidden="true">
+    <svg viewBox="0 0 100 100">
+      <path class="cursor-tail" d="M25 72C2 84 8 52 23 57" />
+      <path class="cursor-body" d="M19 78Q12 59 27 49L24 25 41 39Q51 34 60 40L76 24 75 51Q88 62 77 80Z" />
+      <ellipse class="cursor-eye" cx="41" cy="55" rx="7" ry="9" />
+      <ellipse class="cursor-eye" cx="62" cy="55" rx="7" ry="9" />
+      <circle class="cursor-pupil" cx="42" cy="55" r="3.3" />
+      <circle class="cursor-pupil" cx="63" cy="55" r="3.3" />
+      <path class="cursor-nose" d="M49 66h6l-3 4z" />
+      <path class="cursor-whisker" d="M44 68L25 64M44 72L28 76M60 68l18-4M60 72l16 4" />
+    </svg>
+    <span class="cursor-cat-note">follow me!</span>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(() => {}));
+    }
+  </script>
+</body>
+</html>
